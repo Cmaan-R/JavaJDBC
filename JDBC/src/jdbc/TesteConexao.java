@@ -8,7 +8,7 @@ public class TesteConexao {
 	
 	public static void main(String[] args) throws SQLException{
 		
-		String url = "jdbc:mysql://localhost:";
+		final String url = "jdbc:mysql://localhost:";
 		final String usuario = "root";
 		final String senha = "159753864a";
 		
