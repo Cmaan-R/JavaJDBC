@@ -17,7 +17,7 @@ public class CriarBanco {
 				.getConnection(url, usuario, senha);
 		
 		Statement stmt = conexao.createStatement();
-		stmt.execute("CREATE DATABASE curso_java");
+		stmt.execute("CREATE DATABASE IF NOT EXISTS curso_java");
 				
 		System.out.println("Banco Criado Com Sucesso!");
 		conexao.close();
