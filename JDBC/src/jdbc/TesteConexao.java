@@ -16,8 +16,8 @@ public class TesteConexao {
 				DriverManager.getConnection(url, usuario, senha);
 		
 		System.out.println("Conexão Efetuada Com Sucesso!");
-		conexao.close();		
-		//Teste
+		conexao.close();
+		
 	}
 
 }
