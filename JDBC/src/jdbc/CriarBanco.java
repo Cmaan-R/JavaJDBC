@@ -9,12 +9,13 @@ public class CriarBanco {
 	
 	public static void main (String[] args) throws SQLException{
 		
-		final String url = "jdbc:mysql://localhost?verifyServerCertificate=false&useSSL=true";
-		final String usuario = "root";
-		final String senha = "159753864a";
-		
-		Connection conexao = DriverManager
-				.getConnection(url, usuario, senha);
+//		final String url = "jdbc:mysql://localhost?verifyServerCertificate=false&useSSL=true";
+//		final String usuario = "root";
+//		final String senha = "159753864a";
+//		
+//		Connection conexao = DriverManager
+//				.getConnection(url, usuario, senha);
+		Connection conexao = FabricaConexao.getConexao();
 		
 		Statement stmt = conexao.createStatement();
 		stmt.execute("CREATE DATABASE IF NOT EXISTS curso_java");
