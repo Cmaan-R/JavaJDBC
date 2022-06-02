@@ -17,7 +17,7 @@ public class CriarTabelaPessoas {
 		Statement stmt = conexao.createStatement();
 		stmt.execute(sql);
 		
-		System.out.println("Tabela Criada Com Sucesso!");
+		System.out.println("Tabela Criada Com Suceesso!");
 		conexao.close();
 	}
 }
