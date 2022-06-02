@@ -36,9 +36,9 @@ public class ConsultarPessoas2 {
 			System.out.println(p.getNome());
 		}
 		
-		entrada.close();
 		stmt.close();
 		conexao.close();
+		entrada.close();
 	}
 
 }
