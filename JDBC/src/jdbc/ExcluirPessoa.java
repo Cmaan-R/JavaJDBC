@@ -23,10 +23,10 @@ public class ExcluirPessoa {
 		
 		if(contador > 0) {
 			System.out.println("Pessoa Excluída Com Sucesso!");
-			System.out.println("Linhas Afetadas :" + contador);
 		} else {
 			System.out.println("Não Ouve Alteração! ");
 		}
+		System.out.println("Linhas Afetadas :" + contador);
 		
 		entrada.close();
 		conexao.close();
