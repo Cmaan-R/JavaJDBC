@@ -11,6 +11,5 @@ public class DAOTeste {
 		System.out.println(dao.incluir(sql, "Ana Julia"));
 		System.out.println(dao.incluir(sql, "Djalma Pereira"));		
 	
-	
 	}
 }
