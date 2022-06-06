@@ -9,7 +9,7 @@ public class DAO {
 	
 	private Connection conexao;
 	
-	private int incluir (String sql , Object... atributos) {
+	public int incluir (String sql , Object... atributos) {
 		try {
 			PreparedStatement stmt = getConexao()
 					.prepareStatement
